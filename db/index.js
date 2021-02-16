@@ -21,6 +21,7 @@ async function getAllUsers() {
   }
   
 
+  
   async function createUser({ username, password }) {
     try {
       const {rows} = await client.query(`
